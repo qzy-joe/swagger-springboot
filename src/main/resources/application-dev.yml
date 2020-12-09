@@ -1,0 +1,14 @@
+server:
+  port: 8089
+name: 注意
+
+mybatis:
+  type-aliases-package: com.qzy.springboot.entity
+  mapper-locations: mapper/*.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.98.242.212:49010/designer-market?zeroDateTimeBehavior=convertToNull
+    username: glor-develop
+    password: Passpass
